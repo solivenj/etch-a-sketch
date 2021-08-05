@@ -16,8 +16,9 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;/*space-evenly;*/
     width: 100%;
+    gap: 5em;
 }
 
 .configs {
@@ -36,10 +37,6 @@ main {
 .grid-size {
     color: #001858;
     font-size: 1.25em;
-}
-
-.slider-container {
-    /* margin: 1em; */
 }
 
 .slider {

@@ -100,6 +100,7 @@ clearButton.addEventListener("click", resetGrid);
 slider.addEventListener('input', updateGridSizeText);
 slider.addEventListener('change', changeGridSize);
 colorInput.addEventListener('input', setColor);
+colorButton.classList.add("active");
 
 colorButton.onclick = () => setMode('color');
 grayscaleButton.onclick = () => setMode('grayscale');
